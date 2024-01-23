@@ -18,13 +18,13 @@
     <link rel="icon" href="" />
 </head>
 
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" data-target=".fixed-top" class="bg-gradient-to-r from-[#1f557e] bg-[#333162]">
 
     <nav class="navbar fixed-top">
         <div class="sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
             <div>
-                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
-                    href="index.html">
+                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline nav-link page-scroll"
+                    href="#hero">
                     <img src="./assets/images/Logo.png" alt="Logo" class="h-8" />
                 </a>
             </div>
@@ -81,8 +81,8 @@
             <div class="w-full">
                 <div class="sm:mt-[15rem] text-center sm:leading-[90px] leading-10">
                     <p class="text-white uppercase text-xl sm:tracking-[12px]">The Best COLLECTIONS OF</p>
-                    <h1><span class="lg:text-[90px] sm:text-[60px] text-[40px] text-white">NEXT</span> <span
-                            class="lg:text-[90px] sm:text-[60px] text-[40px] text-[#b345de]">GENERATION</span></h1>
+                    <h1><span class="2xl:text-[90px] sm:text-[60px] text-[40px] text-white font-extrabold">NEXT</span> <span
+                            class="2xl:text-[90px] sm:text-[60px] text-[40px] text-[#b345de] font-extrabold">GENERATION</span></h1>
                     <h2 class="lg:text-[50px] text-[30px] sm:leading-[2px] leading-3 text-white uppercase">Start now
                         TODAY!</h2>
                 </div>
@@ -105,7 +105,7 @@
 
     <section id="whoWeAre" class="whoWeAre relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
         <div class="container mx-auto">
-            <div class="leading-[45px] w-[50%]">
+            <div class="leading-[45px] lg:w-[50%]">
                 <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
                 <h1 class="text-[50px] uppercase text-white font-extrabold">Who We Are?</h1>
                 <h3 class="text-[28px] text-white">Quality! Work Is Our Commitment</h3>
@@ -131,46 +131,55 @@
                     </button>
                 </div>
                 <div class="mt-[4rem]">
-                    <div class="px-4 sm:px-8">
-                        <div id="counter" class="text-white flex space-x-16 w-full">
-                            <div class="cell w-full border-r-2 border-[#42abe4]">
-                                <p class="counter-info text-[#42abe4] text-[20px] font-extrabold pb-6">Active Client</p>
-                                <div class="counter-value number-count text-[50px] font-extrabold" data-count="580">
+                    <div class="px-4 2xl:px-8">
+                        <div id="counter" class="text-white md:flex md:space-x-16 w-full text-center justify-center">
+                            <div class="cell 2xl:w-full">
+                                <p class="counter-info text-[#42abe4] 2xl:text-[18px] font-extrabold pb-6">Active Client
+                                </p>
+                                <div class="counter-value number-count 2xl:text-[50px] text-[30px] font-extrabold"
+                                    data-count="580">
                                 </div>
                             </div>
-                            <div class="cell w-full border-r-2 border-[#42abe4]">
-                                <p class="counter-info text-[#42abe4] text-[20px] font-extrabold pb-6">Projects Done</p>
-                                <div class="counter-value number-count text-[50px] font-extrabold" data-count="1050">
+                            <div class="md:h-20 md:w-1 bg-[#42abe4]"></div>
+                            <div class="cell 2xl:w-full">
+                                <p class="counter-info text-[#42abe4] 2xl:text-[18px] font-extrabold pb-6">Projects Done
+                                </p>
+                                <div class="counter-value number-count 2xl:text-[50px] text-[30px] font-extrabold"
+                                    data-count="1050">
                                 </div>
                             </div>
-                            <div class="cell w-full">
-                                <p class="counter-info text-[#42abe4] text-[20px] font-extrabold pb-6">Team Members</p>
-                                <div class="counter-value number-count text-[50px] font-extrabold" data-count="33">
+                            <div class="md:h-20 md:w-1 bg-[#42abe4]"></div>
+                            <div class="cell 2xl:w-full">
+                                <p class="counter-info text-[#42abe4] 2xl:text-[18px] font-extrabold pb-6">Team Members
+                                </p>
+                                <div class="counter-value number-count 2xl:text-[50px] text-[30px] font-extrabold"
+                                    data-count="33">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="absolute right-0 top-0">
+            <div class="absolute right-0 top-0 lg:block hidden">
                 <img src="/assets/images/whoWeareImg-1.png" alt="">
             </div>
         </div>
     </section>
     <section id="" class="ourApproach relative text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
-        <div class="px-[5rem]">
-            <div class="leading-[45px] ml-[30rem]">
-                <div class="m-6">
+        <div class="md:px-[5rem]">
+            <div class="leading-[45px] 2xl:ml-[30rem] lg:ml-[25rem]">
+                <div class="md:m-6">
                     <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
                     <h1 class="text-[50px] uppercase text-white font-extrabold">Our Approach</h1>
-                    <p class="text-white py-6 w-[50%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <p class="text-white py-6 2xl:w-[50%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do
                         eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                         Risus
                         commodo. </p>
                 </div>
-                <div class="flex flex-wrap justify-center space-x-8 mt-[3rem]">
-                    <div class="card w-[370px] h-[339 px] p-10 m-6">
+                <div class="flex flex-wrap justify-center md:space-x-8 mt-[3rem]">
+                    <div class="card md:w-[370px] md:h-[339px] p-10 m-6">
                         <div class="-mt-[4rem]">
                             <img src="./assets/images/idea-development.png" alt="">
                         </div>
@@ -185,7 +194,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card w-[370px] h-[339 px] p-10 m-6">
+                    <div class="card md:w-[370px] md:h-[339 px] p-10 m-6">
                         <div class="-mt-[4rem]">
                             <img src="./assets/images/targeted-marketing.png" alt="">
                         </div>
@@ -200,7 +209,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card w-[370px] h-[339 px] p-10 m-6">
+                    <div class="card md:w-[370px] md:h-[339 px] p-10 m-6">
                         <div class="-mt-[4rem]">
                             <img src="./assets/images/content.png" alt="">
                         </div>
@@ -217,672 +226,683 @@
                     </div>
                 </div>
             </div>
-            <div class="absolute left-0 bottom-0">
-                <img src="/assets/images/whoWeareImg-2.png" alt="">
+            <div class="bottom-0 left-0 absolute">
+                <img class="lg:block hidden" src="/assets/images/whoWeareImg-2.png" alt="">
             </div>
         </div>
     </section>
 
     <section id="services" class="services text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
-      <div class="container mx-auto">
-        <div class="text-center leading-10">
-            <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
-            <h1 class="text-[50px] uppercase text-white font-extrabold">Who We Are?</h1>
-        </div>
-        <div class="py-6 px-[15rem] text-center">
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis. </p>
-        </div>
-      </div>
-      <div class="flex flex-wrap justify-center space-x-4">
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg1.png" alt="">
+        <div class="container mx-auto">
+            <div class="text-center leading-10">
+                <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
+                <h1 class="text-[50px] uppercase text-white font-extrabold">Who We Are?</h1>
             </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/3d-model.png" alt="">
-                </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    2D/3D Modeling
-                </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
+            <div class="py-6 md:px-[15rem] px-6 text-center">
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    accumsan
+                    lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="servicesCard w-[570px] h-[713px] py-7 px-[1.4rem] my-[5rem]">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg2.png" alt="">
+        <div class="flex flex-wrap justify-center md:space-x-4 px-4">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="md:w-[624px]" src="./assets/images/cardImg1.png" alt="">
+                </div>
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/3d-model.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            2D/3D Modeling
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
+                </div>
             </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/animation.png" alt="">
+            <div class="servicesCard w-[570px] md:h-[713px] py-7 px-[1.4rem] 2xl:my-[5rem]">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg2.png" alt="">
                 </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Character Rigging
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/animation.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Character Rigging
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
                 </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
             </div>
-        </div>
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg3.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/vector.png" alt="">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg3.png" alt="">
                 </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Character Rigging
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/vector.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Character Rigging
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
                 </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
-            </div>
-        </div>
-    </div>
-      <div class="flex flex-wrap justify-center space-x-3 -mt-[9rem]">
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg4.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/web-designing.png" alt="">
-                </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Overlay Design
-                </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
-            </div>
-        </div>
-        <div class="servicesCard w-[570px] h-[713px] p-6 m-6 my-[5rem]">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg5.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/video-editor.png" alt="">
-                </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Intro/Outro Video
-                </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
             </div>
         </div>
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg6.png" alt="">
+        <div class="flex flex-wrap justify-center md:space-x-4 px-4 2xl:-mt-[8.5rem]">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg4.png" alt="">
+                </div>
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/web-designing.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Overlay Design
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
+                </div>
             </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/animate.png" alt="">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6 2xl:m-6 2xl:my-[5rem]">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg5.png" alt="">
                 </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Animations
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/video-editor.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Intro/Outro Video
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
                 </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
             </div>
-        </div>
-    </div>
-      <div class="flex flex-wrap justify-center space-x-3 -mt-[9rem]">
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg7.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/youtuber.png" alt="">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg6.png" alt="">
                 </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    VTuber Model
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/animate.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Animations
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
                 </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
-            </div>
-        </div>
-        <div class="servicesCard w-[570px] h-[713px] p-6  my-[5rem]">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg8.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/illustration.png" alt="">
-                </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Banner Design
-                </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
-            </div>
-        </div>
-        <div class="servicesCard w-[570px] h-[713px] p-6">
-            <div class="">
-                <img class="w-[624px]" src="./assets/images/cardImg9.png" alt="">
-            </div>
-            <div class="-mt-[8rem] p-10">
-               <div class="flex items-end space-x-4">
-                <div>
-                    <img src="./assets/images/tears-of-joy.png" alt="">
-                </div>
-                <div class="text-white text-[25px] font-extrabold">
-                    Emotes Design
-                </div>
-               </div>
-               <div class="py-4">
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-               </div>
-               <div class="cursor-pointer flex space-x-2 mt-6">
-                <div><img src="./assets/images/share.png" alt=""></div>
-                <div class="text-white">Discover More...</div>
-               </div>
             </div>
         </div>
-    </div>
+        <div class="flex flex-wrap justify-center md:space-x-4 px-4 2xl:-mt-[8.5rem]">
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg7.png" alt="">
+                </div>
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/youtuber.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            VTuber Model
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="servicesCard w-[570px] md:h-[713px] p-6  2xl:my-[5rem]">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg8.png" alt="">
+                </div>
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/illustration.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Banner Design
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="servicesCard w-[570px] md:h-[713px] p-6">
+                <div class="">
+                    <img class="w-[624px]" src="./assets/images/cardImg9.png" alt="">
+                </div>
+                <div class="-mt-[8rem] p-10">
+                    <div class="flex items-end space-x-4">
+                        <div>
+                            <img src="./assets/images/tears-of-joy.png" alt="">
+                        </div>
+                        <div class="text-white text-[25px] font-extrabold">
+                            Emotes Design
+                        </div>
+                    </div>
+                    <div class="py-4">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="cursor-pointer flex space-x-2 mt-6">
+                        <div><img src="./assets/images/share.png" alt=""></div>
+                        <div class="text-white">Discover More...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div class="flex justify-between text-center">
+            <div class="absolute bottom-0 lg:block hidden z-10">
+                <img class="" src="./assets/images/ourWorkImg2.png" alt="">
+            </div>
+            <div class="w-full mt-[15rem]">
+                <div class="text-center leading-10">
+                    <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
+                    <h1 class="text-[50px] uppercase text-white font-extrabold">Our Recent Work</h1>
+                    <p class="px-[40rem] pt-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus, maxime ea eveniet eius, ipsum,
+                        blanditiis sit repellat doloribus expedita in nostrum fugiat quasi ex quibusdam fugit soluta
+                        iste non numquam.</p>
+                </div>
+                <div class="flex justify-center sm:mt-14 mt-10 space-x-6">
+                    <button
+                        class="bg-gradient-to-r from-[#f9fcfe] bg-[#c0dff0] border-r-[#c0dff0] p-3 sm:px-10 px-6 font-extrabold rounded-full text-[#010101]">
+                        Get Started
+                    </button>
+                    <button
+                        class="bg-gradient-to-r from-[#f9fcfe] bg-[#c0dff0] border-r-[#c0dff0] p-3 sm:px-10 px-6 font-extrabold rounded-full text-[#010101]">
+                        Explore More
+                    </button>
+                </div>
+            </div>
+            <div class="absolute right-0 -top-[0.5rem] lg:block hidden">
+                <img src="./assets/images/ourWorkImg1.png" alt="">
+            </div>
+            <div class="absolute right-0 -top-[0.5rem] lg:block hidden">
+                <img src="./assets/images/ourWorkImg3.png" alt="">
+            </div>
+        </div>
     </section>
 
-
-    <!-- Introduction -->
-    <!-- <div class="pt-4 pb-14 text-center">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <p class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> Team management mobile apps don’t get better than Pavo. It’s probably the best app in the world for this purpose. Don’t hesitate to give it a try today and you will fall in love with it</p>
+    <section id="packages" class="packages relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div class="pb-32">
+            <div class="text-center leading-10">
+                <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
+                <h1 class="text-[50px] uppercase text-white font-extrabold">How We Work ?</h1>
+                <p class="px-[40rem] pt-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                    maxime ea eveniet eius, ipsum,
+                    blanditiis sit repellat doloribus expedita in nostrum fugiat quasi ex quibusdam fugit soluta
+                    iste non numquam.</p>
             </div>
-        </div> -->
-    <!-- Features -->
-    <!-- <div id="features" class="cards-1">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-1.svg" alt="alternative" />
+        </div>
+        <div class="flex flex-wrap justify-center md:space-x-16 px-4">
+            <div class="packageCard w-[271px] md:h-[173px] relative">
+                <div class="p-4 text-center">
+                    <div class="flex justify-center -mt-[3rem] pb-6">
+                        <img src="./assets/images/information-4c0a6222.png" alt="">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Platform Integration</h5>
-                        <p class="mb-4">You sales force can use the app on any smartphone platform without compatibility issues</p>
+                    <div class="text-white text-[25px] font-extrabold uppercase">
+                        Brief
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-2.svg" alt="alternative" />
+                    <div class="">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod. </p>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Easy On Resources</h5>
-                        <p class="mb-4">Works smoothly even on older generation hardware due to our optimization efforts</p>
+                    <div class="text-[50px] text-[#3b2b5f] font-extrabold pt-4">
+                        01
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-3.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Great Performance</h5>
-                        <p class="mb-4">Optimized code and innovative technology insure no delays and ultra-fast responsiveness</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-4.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Multiple Languages</h5>
-                        <p class="mb-4">Choose from one of the 40 languages that come pre-installed and start selling smarter</p>
-                    </div>
-                </div>
-            
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-5.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Free Updates</h5>
-                        <p class="mb-4">Don't worry about future costs, pay once and receive all future updates at no extra cost</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features-icon-6.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Community Support</h5>
-                        <p class="mb-4">Register the app and get acces to knowledge and ideas from the Pavo online community</p>
-                    </div>
+                <div class="absolute -right-[4.3rem] top-[5.5rem]">
+                    <img src="./assets/images/p-arrow2-1.png" alt="">
                 </div>
             </div>
-        </div> -->
-
-
-    <!-- Details 1 -->
-    <!-- <div id="details" class="pt-12 pb-16 lg:pt-16">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Results driven ground breaking technology</h2>
-                        <p class="mb-4">Based on our team's extensive experience in developing line of business applications and constructive customer feedback we reached a new level of revenue.</p>
-                        <p class="mb-4">We enjoy helping small and medium sized tech businesses take a shot at established Fortune 500 companies</p>
+            <div class="packageCard w-[271px] md:h-[173px] my-[10rem] relative">
+                <div class="p-4 text-center">
+                    <div class="flex justify-center -mt-[3rem] pb-6">
+                        <img src="./assets/images/customer-service-ab5300b5.png" alt="">
+                    </div>
+                    <div class="text-white text-[25px] font-extrabold uppercase">
+                        communication
+                    </div>
+                    <div class="">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod. </p>
+                    </div>
+                    <div class="text-[50px] text-[#3b2b5f] font-extrabold pt-4">
+                        02
                     </div>
                 </div>
-                <div class="lg:col-span-7">
-                    <div class="xl:ml-14">
-                        <img class="inline" src="images/details-1.jpg" alt="alternative" />
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details 2 -->
-    <!-- <div class="py-24">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-7">
-                    <div class="mb-12 lg:mb-0 xl:mr-14">
-                        <img class="inline" src="images/details-2.jpg" alt="alternative" />
-                    </div>
-                </div> 
-                <div class="lg:col-span-5">
-                    <div class="xl:mt-12">
-                        <h2 class="mb-6">Instant results for the marketing department</h2>
-                        <ul class="list mb-7 space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Features that will help you and your marketers</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Smooth learning curve due to the knowledge base</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Ready out-of-the-box with minor setup settings</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                        <a class="btn-outline-reg" href="article.html">Details</a>
-                    </div>
+                <div class="absolute -right-[5rem] top-[6rem]">
+                    <img src="./assets/images/p-arrow2-1 copy.png" alt="">
                 </div>
             </div>
-        </div>--->
-
-
-
-
-    <!-- <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
-                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-                <div class="lg:col-span-8">
-                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
-                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
+            <div class="packageCard w-[271px] md:h-[173px] relative">
+                <div class="p-4 text-center">
+                    <div class="flex justify-center -mt-[3rem] pb-6">
+                        <img src="./assets/images/budget-74908c49.png" alt="">
                     </div>
-                </div> 
-                <div class="lg:col-span-4">
-                    <h3 class="mb-2">Goals Setting</h3>
-                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
-                    <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
-                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
-                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
-                    <ul class="list mb-6 space-y-2">
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Splash screen panel</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Statistics graph report</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Events calendar layout</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Location details screen</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Onboarding steps interface</div>
-                        </li>
-                    </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
-                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
-                </div>
-            </div> 
-        </div> -->
-
-
-    <!-- Details 3 -->
-    <!-- <div class="pt-16 pb-12">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Platform integration and life time free updates</h2>
-                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
-                            together with their teams.</p>
-                        <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
+                    <div class="text-white text-[25px] font-extrabold uppercase">
+                        Budget
+                    </div>
+                    <div class="">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod. </p>
+                    </div>
+                    <div class="text-[50px] text-[#3b2b5f] font-extrabold pt-4">
+                        03
                     </div>
                 </div>
-                <div class="lg:col-span-7">
-                    <div class="ml-14">
-                        <img class="inline" src="images/details-3.jpg" alt="alternative" />
-                    </div>
+                <div class="absolute -right-[4.3rem] top-[5.5rem]">
+                    <img src="./assets/images/p-arrow2-1.png" alt="">
                 </div>
             </div>
-        </div> -->
-
-
-
-    <!-- Statistics -->
-    <!-- <div class="counter">
-            <div class="container px-4 sm:px-8">
-
-                <div id="counter">
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="231">1</div>
-                        <p class="counter-info">Happy Users</p>
+            <div class="packageCard w-[271px] md:h-[173px] my-[10rem] relative">
+                <div class="p-4 text-center">
+                    <div class="flex justify-center -mt-[3rem] pb-6">
+                        <img src="./assets/images/coding-da95df25.png" alt="">
                     </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="385">1</div>
-                        <p class="counter-info">Issues Solved</p>
+                    <div class="text-white text-[25px] font-extrabold uppercase">
+                        Development
                     </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="159">1</div>
-                        <p class="counter-info">Good Reviews</p>
+                    <div class="">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod. </p>
                     </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="127">1</div>
-                        <p class="counter-info">Case Studies</p>
+                    <div class="text-[50px] text-[#3b2b5f] font-extrabold pt-4">
+                        04
                     </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="211">1</div>
-                        <p class="counter-info">Orders Received</p>
-                    </div>
+                </div>
+                <div class="absolute -right-[5rem] top-[6rem]">
+                    <img src="./assets/images/p-arrow2-1 copy.png" alt="">
                 </div>
             </div>
-        </div> -->
-
-    <!-- Testimonials -->
-    <!-- <div class="slider-1 py-32 bg-gray">
-            <div class="container px-4 sm:px-8">
-                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
-                <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-1.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great</p>
-                                        <p class="testimonial-author">Jude Thorn - Designer</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-2.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We were so focused on launching as many campaigns as possible that we've forgotten to target our loyal customers</p>
-                                        <p class="testimonial-author">Roy Smith - Developer</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy</p>
-                                        <p class="testimonial-author">Marsha Singer - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-4.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We've been waiting for a powerful piece of software that can help businesses manage their marketing projects</p>
-                                        <p class="testimonial-author">Tim Shaw - Designer</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-5.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Searching for a great prototyping and layout design app was difficult but thankfully I found app suite quickly</p>
-                                        <p class="testimonial-author">Lindsay Spice - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-6.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">The app support team is amazing. They've helped me with some issues and I am so grateful to the entire team</p>
-                                        <p class="testimonial-author">Ann Blake - Developer</p>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-
+            <div class="packageCard w-[271px] md:h-[173px]">
+                <div class="p-4 text-center">
+                    <div class="flex justify-center -mt-[3rem] pb-6">
+                        <img src="./assets/images/thumb-ups-a6318bad.png" alt="">
                     </div>
-                </div>
-            </div>
-        </div> -->
-
-
-    <!-- Pricing -->
-    <!-- <div id="pricing" class="cards-2">
-            <div class="absolute bottom-0 h-40 w-full bg-white"></div>
-            <div class="container px-4 pb-px sm:px-8">
-                <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
-                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">STANDARD</div>
-                        <div class="price"><span class="currency">$</span><span class="value">29</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This basic package covers the marketing needs of small startups</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                    <div class="text-white text-[25px] font-extrabold uppercase">
+                        Result
                     </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">ADVANCED</div>
-                        <div class="price"><span class="currency">$</span><span class="value">39</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a more advanced package suited for medium companies</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                    <div class="">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod.</p>
                     </div>
-                </div> 
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">COMPLETE</div>
-                        <div class="price"><span class="currency">$</span><span class="value">49</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a comprehensive package designed for big organizations</p>
-                        <ul class="list mb-7 text-left space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                    <div class="text-[50px] text-[#3b2b5f] font-extrabold pt-4">
+                        05
                     </div>
-                </div> 
-            </div>
-        </div> -->
-
-
-    <!-- Conclusion -->
-    <!-- <div id="download" class="basic-5">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
-                <div class="mb-16 lg:mb-0">
-                    <img src="images/conclusion-smartphone.png" alt="alternative" />
-                </div>
-                <div class="lg:mt-24 xl:mt-44 xl:ml-12">
-                    <p class="mb-9 text-gray-800 text-3xl leading-10">Team management mobile applications don’t get much better than Pavo. Download it today</p>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>Download</a>
-                    <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Download</a>
-                </div>
-            </div>
-        </div> -->
-
-
-    <!-- Footer -->
-    <!-- <div class="footer">
-            <div class="container px-4 sm:px-8">
-                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Pavo is a mobile application for marketing automation and you can reach the team at <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com">email@domain.com</a></h4>
-                <div class="social-container">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-youtube fa-stack-1x"></i>
-                        </a>
-                    </span>
                 </div>
             </div>
         </div>
-    -->
+    </section>
 
+    <section class="testimonial relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div class="absolute left-0 top-0">
+            <img class="-mt-[20rem]" src="/assets/images/testimonialImg1.png" alt="">
+        </div>
+        <!-- Testimonials -->
+        <div class="slider-1">
+            <div class="">
+                <div class="text-center leading-10">
+                    <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
+                    <h1 class="text-[50px] uppercase text-white font-extrabold">What Our Clients Say ?</h1>
+                    <p class="px-[30rem] pt-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus, maxime ea eveniet eius, ipsum,
+                        blanditiis sit repellat doloribus expedita in nostrum fugiat quasi ex quibusdam fugit soluta
+                        iste non numquam.</p>
+                </div>
+                <div class="swiper-container card-slider">
+                    <div class="swiper-wrapper pt-20">
+                        <div
+                            class="swiper-slide bg-gradient-to-b sm:px-10 px-6 from-[#523282] rounded-xl border-b-[#523282]">
+                            <div class="">
+                                <img class="card-image" src="/assets/images/testimonial1.png" alt="alternative" />
+                                <div class="card-body pt-6">
+                                    <div class="-mt-[3rem] ">
+                                        <img class="ml-auto mr-[13rem]" src="/assets/images/coma.png" alt="">
+                                    </div>
+                                    <div class="pt-6">
+                                        <p class="testimonial-author text-white">Jude Thorn</p>
+                                        <p class="text-[#a28eca] pb-6">Designer</p>
+                                        <p class="italic mb-3 text-[#dad6ed]">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Cumque perferendis veritatis beatae assumenda maiores,
+                                            nemo sit minima sed, vero harum animi facilis qui doloribus repellat
+                                            asperiores tempora numquam, doloremque dolorum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-slide bg-gradient-to-b sm:px-10 px-6 from-[#523282] rounded-xl border-b-[#523282]">
+                            <div class="">
+                                <img class="card-image" src="/assets/images/testimonial1.png" alt="alternative" />
+                                <div class="card-body pt-6">
+                                    <div class="-mt-[3rem] ">
+                                        <img class="ml-auto mr-[13rem]" src="/assets/images/coma.png" alt="">
+                                    </div>
+                                    <div class="pt-6">
+                                        <p class="testimonial-author text-white">Jude Thorn</p>
+                                        <p class="text-[#a28eca] pb-6">Designer</p>
+                                        <p class="italic mb-3 text-[#dad6ed]">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Maiores quasi quos, earum non quas magni eius deserunt
+                                            animi fugiat nulla beatae ea alias, veniam, quis in vel dolorem reiciendis?
+                                            Itaque!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-slide bg-gradient-to-b sm:px-10 px-6 from-[#523282] rounded-xl border-b-[#523282]">
+                            <div class="">
+                                <img class="card-image" src="/assets/images/testimonial1.png" alt="alternative" />
+                                <div class="card-body pt-6">
+                                    <div class="-mt-[3rem] ">
+                                        <img class="ml-auto mr-[13rem]" src="/assets/images/coma.png" alt="">
+                                    </div>
+                                    <div class="pt-6">
+                                        <p class="testimonial-author text-white">Jude Thorn</p>
+                                        <p class="text-[#a28eca] pb-6">Designer</p>
+                                        <p class="italic mb-3 text-[#dad6ed]">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Provident quae, deleniti reiciendis libero necessitatibus
+                                            laudantium magni, cum porro aut harum dolor itaque quia distinctio est non.
+                                            Consequatur rem natus magnam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination absolute top-[45rem]"></div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute right-0 top-0">
+            <img class="-mt-[20rem]" src="/assets/images/testimonialImg2.png" alt="">
+        </div>
+    </section>
+    <section id="contact-us" class="contact relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div>
+            <div class="absolute bottom-0">
+                <img src="/assets/images/contactImg1.png" alt="">
+            </div>
+            <div class="ml-[36rem]">
+                <div class="text-left leading-10">
+                    <h2 class="text-[#42abe4] uppercase text-[25px] font-extrabold">E-Games Designs</h2>
+                    <h1 class="text-[50px] uppercase text-white font-extrabold">Get In Touch</h1>
+                    <p class="w-[50%] py-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus, maxime ea eveniet eius, ipsum,
+                        blanditiis sit repellat doloribus expedita in nostrum fugiat quasi ex quibusdam fugit soluta
+                        iste non numquam.</p>
+                </div>
+                <form action="" class="w-[72%]">
+                    <div class="flex space-x-4 pb-4">
+                        <div class="w-full">
+                            <input class="p-4 rounded-xl bg-[#341e52] placeholder-[#896cb0] w-full" type="text"
+                                placeholder="Enter Your Name*">
+                        </div>
+                        <div class="w-full">
+                            <input class="p-4 rounded-xl bg-[#341e52] placeholder-[#896cb0] w-full" type="text"
+                                placeholder="Enter Your Email*">
+                        </div>
+                    </div>
+                    <div class="flex space-x-4 pb-4">
+                        <div class="w-full">
+                            <input class="p-4 rounded-xl bg-[#341e52] placeholder-[#896cb0] w-full" type="text"
+                                placeholder="Enter Your Phone Number*">
+                        </div>
+                        <div class="w-full">
+                            <input class="p-4 rounded-xl bg-[#341e52] placeholder-[#896cb0] w-full" type="text"
+                                placeholder="What type of Service Are you looking ?">
+                        </div>
+                    </div>
+                    <div class="">
+                        <textarea class="p-4 rounded-xl bg-[#341e52] placeholder-[#896cb0] w-full" name="" id=""
+                            cols="30" rows="10" placeholder="Type Your Message Here.."></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="absolute bottom-0 right-0">
+                <img src="/assets/images/contactImg2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer relative py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+        <div class="absolute left-0 bottom-0">
+            <img src="/assets/images/footerImg1.png" alt="">
+        </div>
+        <div class="footer-content px-[20rem]">
+           <div class="flex space-x-16">
+            <div class="w-full">
+                <img src="/assets/images/footerlogo.png" alt="">
+                <div class="py-8">
+                    <p class="text-[#737ca0]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam magnam facere iusto voluptatum
+                        tempore velit optio laboriosam modi, culpa quam sit voluptatem cupiditate eaque mollitia in hic
+                        vel deserunt eligendi, sunt inventore quo nostrum quia, dolor voluptate? Eligendi, ad nihil
+                        beatae, quaerat nam sapiente sunt ullam architecto sint et quos.</p>
+                </div>
+                <div class="">
+                    <h1 class="text-[white] font-extrabold">Subscribe NewLetter</h1>
+                    <p class="text-[#737ca0] py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, cumque!</p>
+                    <div class="relative">
+                        <div>
+                            <input class="bg-[#443872] p-4 w-full rounded-xl placeholder-[#c1b1dc]" placeholder="Enter You Email" type="text">
+                        </div>
+                        <div class="absolute top-4 right-5 cursor-pointer">
+                            <img src="/assets/images/Plane-paper.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[30%] leading-10 mt-14">
+                <div>
+                    <h1 class="text-white font-extrabold pb-4">Quick Links</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#hero">Home</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#whoWeAre">Who We Are ?</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#services">Gaming Desings</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#packages">Packages</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#contact-us">Contact Us</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a class="page-scroll" href="#contact-us">Refund Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-[30%] leading-10 mt-14">
+                <div>
+                    <h1 class="text-white font-extrabold pb-4">Services</h1>
+                </div>
+                <div>
+                   
+                   <ul>
+                        <li class="text-[#b9afd8]">
+                            <a href="#"> Gaming Logo </a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Overlay Design</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Banner Design</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Intro / Outro Videos</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">2D/3D Model</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Characteer Rigging</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">VTuber Model</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Emotes Design</a>
+                        </li>
+                        <li class="text-[#b9afd8]">
+                            <a href="#">Animations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-[60%] leading-10 mt-14">
+                <div>
+                    <h1 class="text-white font-extrabold pb-4">Contact Info</h1>
+                </div>
+                <div class="pt-2 flex space-x-3 items-start">
+                    <div class="mt-1">
+                        <img src="/assets/images/map.png" alt="">
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#b9afd8]">Suite 22, Lorem Ipsum is simply,
+                            dummy text printing</p>
+                    </div>
+                </div>
+                <div class="py-8 flex space-x-3 items-start">
+                    <div class="mt-1">
+                        <img src="/assets/images/phone.png" alt="">
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#b9afd8]">+1 (120) 101-4400</p>
+                    </div>
+                </div>
+                <div class="flex space-x-3 items-start">
+                    <div class="mt-1">
+                        <img src="/assets/images/email.png" alt="">
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#b9afd8]">info@egamesdesigns.com</p>
+                    </div>
+                </div>
+                <div class="mt-[4rem] text-xl font-extrabold">
+                    <h1 class="text-white pb-4">Follow Us On:</h1>
+                    <div class="flex items-center space-x-4">
+                      <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#c35be8" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                        </svg>
+                      </div>
+                      <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#c35be8" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                            <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+                        </svg>
+                      </div>
+                      <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#c35be8" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                        </svg>
+                      </div>
+                      <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#c35be8" x="0px" y="0px" width="35" height="35" viewBox="0 0 50 50">
+                            <path d="M 24.402344 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.402344 16.898438 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.902344 40.5 17.898438 41 24.5 41 C 31.101563 41 37.097656 40.5 40.597656 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.097656 35.5 C 45.5 33 46 29.402344 46.097656 24.902344 C 46.097656 20.402344 45.597656 16.800781 45.097656 14.300781 C 44.699219 12.101563 42.800781 10.5 40.597656 10 C 37.097656 9.5 31 9 24.402344 9 Z M 24.402344 11 C 31.601563 11 37.398438 11.597656 40.199219 12.097656 C 41.699219 12.5 42.898438 13.5 43.097656 14.800781 C 43.699219 18 44.097656 21.402344 44.097656 24.902344 C 44 29.199219 43.5 32.699219 43.097656 35.199219 C 42.800781 37.097656 40.800781 37.699219 40.199219 37.902344 C 36.597656 38.601563 30.597656 39.097656 24.597656 39.097656 C 18.597656 39.097656 12.5 38.699219 9 37.902344 C 7.5 37.5 6.300781 36.5 6.101563 35.199219 C 5.300781 32.398438 5 28.699219 5 25 C 5 20.398438 5.402344 17 5.800781 14.902344 C 6.101563 13 8.199219 12.398438 8.699219 12.199219 C 12 11.5 18.101563 11 24.402344 11 Z M 19 17 L 19 33 L 33 25 Z M 21 20.402344 L 29 25 L 21 29.597656 Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+            <div class="py-16">
+                <div class="w-full h-1 bg-[#9027b5]"></div>
+                <div class="px-[5rem] text-center pt-20">
+                    <p class="text-[#dad6ed]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit, qui veritatis non eius cupiditate hic facilis reiciendis nihil iusto voluptates dolor beatae. Voluptate qui unde incidunt, doloremque ipsam ipsa facilis fuga velit molestiae consequatur optio soluta maxime commodi veritatis mollitia eligendi, tempore architecto suscipit nam? Hic atque cumque eius!</p>
+                </div>
+                <div class="text-center py-8">
+                    <span class="text-[#dad6ed]">© Copyright 2024 –</span> <span class="text-white font-bold">E-Games Designs.</span> <span class="text-[#dad6ed]"> All Rights Reserved.</span>
+                </div>
+                <div class="text-center text-[#d9bbff] font-bold">
+                    <a href="#">Terms & Conditions</a> /
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="absolute right-0 bottom-0">
+            <img src="/assets/images/heroImg-2.png" alt="">
+        </div>
+    </footer>
     <!-- Scripts -->
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/jquery.easing.min.js"></script>

@@ -52,32 +52,44 @@
     });
     
 
-	var cardSlider = new Swiper('.card-slider', {
-		autoplay: {
+    var cardSlider = new Swiper('.card-slider', {
+        autoplay: {
             delay: 4000,
             disableOnInteraction: false
-		},
+        },
         loop: true,
-        navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
-		},
-		slidesPerView: 3,
-		spaceBetween: 70,
+        centeredSlides: true,
+        slidesPerView: 3,
+        spaceBetween: 70,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            bulletClass: 'swiper-pagination-bullet',
+            bulletActiveClass: 'swiper-pagination-bullet-active',
+        },
         breakpoints: {
-            // when window is <= 767px
             767: {
                 slidesPerView: 1
             },
-            // when window is <= 1023px
             1023: {
-                slidesPerView: 2,
-                spaceBetween: 40
+                slidesPerView: 3,
+            }
+        },
+        on: {
+            slideChange: function () {
+                // Remove 'active' class from all slides
+                var slides = this.slides;
+                for (var i = 0; i < slides.length; i++) {
+                    slides[i].classList.remove('active');
+                }
+    
+                // Add 'active' class to the active slide
+                var activeIndex = this.activeIndex;
+                slides[activeIndex].classList.add('active');
             }
         }
-    });
-
-
+    }); 
+    
 
 	var a = 0;
 $(window).scroll(function () {
