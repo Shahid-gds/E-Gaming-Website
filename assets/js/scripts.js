@@ -184,3 +184,12 @@ $(window).scroll(function () {
 
 })(jQuery);
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    var phoneInput = document.getElementById('phone');
+
+    phoneInput.addEventListener('input', function(event) {
+      var inputValue = event.target.value;
+      event.target.value = inputValue.replace(/[^0-9]/g, ''); // Remove non-numeric characters
+    });
+  });
