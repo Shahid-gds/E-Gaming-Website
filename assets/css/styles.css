@@ -12,12 +12,26 @@ p {
     background-size: 100% 100%;
     height: 90vh;
 }
+.WhoWeArehero{
+    background-image: url('../images/bgs/10thBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
 .whoWeAre{
     background-image: url('../images/bgs/2ndBg.png');
     background-size: 100% 100%;
 }
+.ourMission{
+    background-image: url('../images/bgs/11thBg.png');
+    background-size: 100% 100%;
+}
 .ourApproach{
     background-image: url('../images/bgs/3rdBg.png');
+    background-size: 100% 100%;
+   
+}
+.ourVision{
+    background-image: url('../images/bgs/12Bg.png');
     background-size: 100% 100%;
    
 }
@@ -198,20 +212,20 @@ p {
 }
 
 .dropdown-menu {
+    width: 271px;
     top: 100%;
     left: 0;
     z-index: 1000;
     display: none;
     min-width: 10rem;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     margin: 0.5rem 0;
     font-size: 1rem;
-    color: #212529;
-    list-style: none;
-    background-color: #f1f9fc;
+    color: white;
+    background: linear-gradient(to bottom, #352261, #352261);
     background-clip: padding-box;
-    border-radius: 0.25rem;
-    animation: fadeDropdown 0.2s; /* required for the fade animation */
+    border-radius: 15px;
+    animation: fadeDropdown 0.2s;
 }
 
 @keyframes fadeDropdown {
@@ -233,12 +247,12 @@ p {
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     clear: both;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
-    color: #6b747b;
+    color: white;
     font-weight: 600;
     font-size: 0.875rem;
     line-height: 0.875rem;
@@ -248,17 +262,9 @@ p {
 .dropdown-item:hover,
 .dropdown-item:focus {
     text-decoration: none;
-    background-color: #f1f9fc;
-    color: #ff6e84;
+    color: #4bcefa;
 }
 
-.dropdown-divider {
-    overflow: hidden;
-    width: 100%;
-    height: 1px;
-    margin: 0.5rem auto 0.5rem auto;
-    background-color: #d4dce2;
-}
 /* end of dropdown menu */
 
 /****************************/
@@ -464,12 +470,26 @@ a:hover.back-to-top {
         background-size: cover;
         height: 40vh;
     }
+    .WhoWeArehero{
+        background-image: url('../images/bgs/1stBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
     .whoWeAre{
         background-image: url('../images/bgs/2ndBg.png');
         background-size: cover;
     }
     .ourApproach{
         background-image: url('../images/bgs/3rdBg.png');
+        background-size: cover;
+       
+    }
+    .ourMission{
+        background-image: url('../images/bgs/11thBg.png');
+        background-size: cover;
+    }
+    .ourVision{
+        background-image: url('../images/bgs/12Bg.png');
         background-size: cover;
        
     }
