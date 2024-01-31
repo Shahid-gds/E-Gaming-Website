@@ -1,0 +1,44 @@
+/************************/
+/*     Testimonials     */
+/************************/
+/* Add this style to your existing stylesheet */
+
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px; 
+    background-color: #c276dd;
+    margin: 0 5px;
+    border-radius: 0;
+}
+
+.card-slider .swiper-slide.active {
+    background: linear-gradient(to bottom, #3f256c, transparent);
+}
+
+
+.slider-1 .slider-container {
+    position: relative;
+}
+
+.slider-1 .swiper-container {
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-1 .swiper-button-prev:focus,
+.slider-1 .swiper-button-next:focus {
+    /* even if you can't see it chrome you can see it on mobile device */
+    outline: none;
+}
+
+
+.slider-1 .card-image {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-top: -3rem;
+    margin-left: auto;
+    border-radius: 50%;
+}

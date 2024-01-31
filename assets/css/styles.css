@@ -17,6 +17,51 @@ p {
     background-size: 100% 100%;
     height: 90vh;
 }
+.characterhero{
+    background-image: url('../images/bgs/13thBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.TwoD-3dBg{
+    background-image: url('../images/bgs/2d-3dBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.animationBg{
+    background-image: url('../images/bgs/animationBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.bannerBg{
+    background-image: url('../images/bgs/bannerBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.emotesBg{
+    background-image: url('../images/bgs/emotesBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.gamingBg{
+    background-image: url('../images/bgs/logoBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.introBg{
+    background-image: url('../images/bgs/intro-outroBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.overlayBg{
+    background-image: url('../images/bgs/overlayBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.vTuberBg{
+    background-image: url('../images/bgs/VTuberBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
 .whoWeAre{
     background-image: url('../images/bgs/2ndBg.png');
     background-size: 100% 100%;
@@ -50,6 +95,25 @@ p {
     background-size: 100% 100%;
    
 }
+.packagesBg{
+    background-image: url('../images/bgs/15thBg.png');
+    background-size: 100% 100%;
+   
+}
+.contactBg{
+    background-image: url('../images/bgs/16thBg.png');
+    background-size: 100% 100%;
+   
+}
+.formBg{
+    background-image: url('../images/bgs/17thBg.png');
+    background-size: 100% 100%;
+   
+}
+.getInTouchBg{
+    background-image: url('../images/bgs/18thBg.png');
+    background-size: 100% 100%;
+}
 .testimonial{
     background-image: url('../images/bgs/7thBg.png');
     background-size: 100% 100%;
@@ -80,8 +144,84 @@ p {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.pricingCard{
+    background-image: url('../images/pricingCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pricingsCard{
+    background-image: url('../images/packagesCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.portfolioCard{
+    background-image: url('../images/bgs/4thBg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.buttons {
+    background-image: url('../images/buttons.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
 
-
+.tab {
+    cursor: pointer;
+    background-color: rgba(47, 67, 125, 0.824);
+    transition: all ease-in-out 0.5s;
+}
+.panels {
+    border-radius: 3px;
+    overflow: hidden;
+}
+.brandConcept:hover {
+    box-shadow: inset 278px 0 0 0 #f0d7fa !important;
+    color: #000000 !important;
+    font-weight: bolder !important;
+}
+.panel {
+    display: none;
+    animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.panel-title {
+    font-size: 1.5em;
+    font-weight: bold
+}
+.radio {
+    display: none;
+}
+#one:checked~.panels #one-panel,
+#two:checked~.panels #two-panel,
+#three:checked~.panels #three-panel,
+#four:checked~.panels #four-panel,
+#five:checked~.panels #five-panel,
+#six:checked~.panels #six-panel,
+#seven:checked~.panels #seven-panel,
+#eight:checked~.panels #eight-panel,
+#nine:checked~.panels #nine-panel {
+    display: block
+}
+#one:checked~.tabs #one-tab,
+#two:checked~.tabs #two-tab,
+#three:checked~.tabs #three-tab,
+#four:checked~.tabs #four-tab,
+#five:checked~.tabs #five-tab,
+#six:checked~.tabs #six-tab,
+#seven:checked~.tabs #seven-tab,
+#eight:checked~.tabs #eight-tab,
+#nine:checked~.tabs #nine-tab {
+    box-shadow: inset 278px 0 0 0 #f0d7fa !important;
+    color: #000000 !important;
+    font-weight: bolder !important;
+}
 
 /* Fade-move Animation For Details Lightbox - Magnific Popup */
 /* at start */
@@ -165,7 +305,7 @@ p {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #f1f9fc;
+    background-color: #352261;
     transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -257,12 +397,15 @@ p {
     font-size: 0.875rem;
     line-height: 0.875rem;
     text-decoration: none;
+   
 }
 
-.dropdown-item:hover,
+.dropdown-menu li:hover,
+.dropdown-menu a:hover,
 .dropdown-item:focus {
     text-decoration: none;
     color: #4bcefa;
+    transition: all 0.3 ease;
 }
 
 /* end of dropdown menu */
@@ -295,6 +438,7 @@ p {
 
 .card-slider .swiper-slide.active {
     background: linear-gradient(to bottom, #3f256c, transparent);
+    margin-top: -2rem;
 }
 
 
@@ -475,6 +619,52 @@ a:hover.back-to-top {
         background-size: cover;
         height: 40vh;
     }
+    .characterhero{
+        background-image: url('../images/bgs/13thBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .TwoD-3dBg{
+        background-image: url('../images/bgs/2d-3dBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .animationBg{
+        background-image: url('../images/bgs/animationBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .bannerBg{
+        background-image: url('../images/bgs/bannerBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .emotesBg{
+        background-image: url('../images/bgs/emotesBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .gamingBg{
+        background-image: url('../images/bgs/logoBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .introBg{
+        background-image: url('../images/bgs/intro-outroBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .overlayBg{
+        background-image: url('../images/bgs/overlayBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+    .vTuberBg{
+        background-image: url('../images/bgs/VTuberBg.png');
+        background-size: cover;
+        height: 40vh;
+    }
+  
     .whoWeAre{
         background-image: url('../images/bgs/2ndBg.png');
         background-size: cover;
@@ -492,6 +682,10 @@ a:hover.back-to-top {
         background-image: url('../images/bgs/12Bg.png');
         background-size: cover;
        
+    }
+    .getInTouchBg{
+        background-image: url('../images/bgs/18thBg.png');
+        background-size: cover;
     }
     .services{
         background-image: url('../images/bgs/4thBg.png');
